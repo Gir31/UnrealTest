@@ -1,0 +1,61 @@
+# ====================================================================
+# [1. 언리얼 엔진 5 (UE5) 하위 폴더 무시 설정]
+# ====================================================================
+# 앞뒤로 슬래시를 조합하거나 와일드카드를 써서 
+# 하위 프로젝트 폴더 내의 임시 폴더들을 정확히 잡아냅니다.
+
+**/Binaries/
+**/Build/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+
+**/DataDrivenPlatformInfo/
+**/Script/
+
+*.sln
+
+**/[Cc]ontent/[Cc]ollections/
+**/[Cc]ontent/[Cc]onvelopes/
+**/[Cc]ontent/Developers/
+
+# ====================================================================
+# [2. Visual Studio & C++ 관련 하위 폴더 무시 설정]
+# ====================================================================
+*.vsidx
+*.VC.db
+*.VC.opendb
+*.ncb
+*.sdf
+*.opensdf
+**/ipch/
+*.ipch
+
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/x86/
+**/[Aa]rm/
+**/[Aa]rm64/
+*.exe
+*.dll
+*.pdb
+
+# ====================================================================
+# [3. 기타 OS 및 도구]
+# ====================================================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.modules
+*.target
+
+**/packages/
+*.nuget.props
+*.nuget.targets
